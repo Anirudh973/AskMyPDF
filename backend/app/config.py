@@ -3,11 +3,11 @@ from functools import lru_cache
 
 class Settings(BaseSettings):
     # Supabase settings
-    supabase_url: str = "https://tktpyofehgpaarziujpb.supabase.co"
-    supabase_key: str = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRrdHB5b2ZlaGdwYWFyeml1anBiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDcxNDU4NjgsImV4cCI6MjA2MjcyMTg2OH0.oGDXcjrkNeLA4Z1F8KUi67v352vo5FbWSYiyRPtROg8"
+    supabase_url: str = "https://your_url.supabase.co"
+    supabase_key: str = "your_key"
     
     # Groq API settings
-    groq_api_key: str = "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"
+    groq_api_key: str = "put_your_api_key_here"
     
     class Config:
         env_file = ".env"
